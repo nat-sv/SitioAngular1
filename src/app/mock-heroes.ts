@@ -2,7 +2,7 @@ import {Hero}from "./Hero";
 
 export const HEROES: Hero[] = [
 {id: 11, name: "Superman", edad: 30, poder: "Superfuerza", identidad : "Clark Kent", universo: "DC"},
-{id: 12, name: "Batman", edad: 30, poder: "Super detective", identidad : "Bruce Wane", universo: "DC"},
+{id: 12, name: "Batman", edad: 30, poder: "artes marciales", identidad : "Bruce Wane", universo: "DC"},
 {id: 13, name: "Hulk", edad: 40, poder: "Superfuerza", identidad : "Bruce Baner", universo: "Marvel"},
 {id: 14, name: "ironman", edad: 25, poder: "Armadura", identidad : "Tony Stark", universo: "Marvel"},
 {id: 15, name: "Thor", edad: 1000, poder: "Superfuerza", identidad : "Thor", universo: "Marvel"},
