@@ -6,8 +6,8 @@ import { MessageService } from '../message.service';
 
 @Component({
   selector: 'app-heroes',
-  templateUrl: './heroes.component.html',
-  styleUrls: ['./heroes.component.css']
+  templateUrl: './Heroes.component.html',
+  styleUrls: ['./Heroes.component.css']
 })
 export class HeroesComponent implements OnInit {
 
