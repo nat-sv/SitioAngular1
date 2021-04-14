@@ -1,13 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 
 import { Hero } from '../Hero';
-import { HeroService } from '../Hero.service';
+import { HeroService } from '../hero.service';
 import { MessageService } from '../message.service';
 
 @Component({
   selector: 'app-heroes',
-  templateUrl: './Heroes.component.html',
-  styleUrls: ['./Heroes.component.css']
+  templateUrl: './heroes.component.html',
+  styleUrls: ['./heroes.component.css']
 })
 export class HeroesComponent implements OnInit {
 
@@ -30,3 +30,4 @@ export class HeroesComponent implements OnInit {
     this.heroService.getHeroes()
         .subscribe(heroes => this.heroes = heroes);
   }
+}
